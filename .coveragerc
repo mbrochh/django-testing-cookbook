@@ -6,4 +6,6 @@ omit =
   *tests/*,
   *urls.py,
   *wsgi.py,
+  *__init__.py,
+  */.tox/*,
   manage.py
