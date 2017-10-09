@@ -3,4 +3,6 @@ mock==2.0.0
 pytest==3.2.3
 pytest-cov==2.5.1
 pytest-django==3.1.2
+pytest-flake8==0.8.1
+pytest-pylint==0.7.1
 stripe==1.66.0
