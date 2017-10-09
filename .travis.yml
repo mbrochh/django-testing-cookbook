@@ -1,9 +1,11 @@
 language: python
 install:
-  - pip install tox
+  - pip install coveralls tox tox-travis
 script:
   - tox
 env:
   - TOXENV=django19
   - TOXENV=django110
   - TOXENV=coverage
+after_success:
+  - coveralls
