@@ -1,4 +1,10 @@
-*.pyc
-.coverage
 .cache/
+.coverage
+.idea
+.tox/
+
+db.sqlite3
+
+*.pyc
+
 htmlcov/
